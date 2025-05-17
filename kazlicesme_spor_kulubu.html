@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kazlıçeşme Spor Kulübü</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial; background: #f2f2f2; margin: 0; padding: 0; }
+    header { background-color: #006400; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #004d00; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 10px; text-decoration: none; }
+    section { padding: 20px; }
+    footer { background-color: #006400; color: white; text-align: center; padding: 10px; }
+    input, textarea { width: 100%; padding: 10px; margin: 5px 0; }
+    form { max-width: 600px; margin: auto; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kazlıçeşme Spor Kulübü</h1>
+  <p>Yeşil forma, beyaz umut!</p>
+</header>
+
+<nav>
+  <a href="#hakkimizda">Hakkımızda</a>
+  <a href="#kadro">Takım Kadrosu</a>
+  <a href="#basvuru">Oyuncu Başvurusu</a>
+  <a href="#iletisim">İletişim</a>
+</nav>
+
+<section id="hakkimizda">
+  <h2>Hakkımızda</h2>
+  <p>2025 yılında İstanbul Zeytinburnu Kazlıçeşme Mahallesi’nde kurulan kulübümüz, amatör ruhla başlayıp Süper Lig hedefiyle yola çıkmıştır.</p>
+</section>
+
+<section id="kadro">
+  <h2>Takım Kadrosu</h2>
+  <ul>
+    <li>Ali Demir - Kaleci</li>
+    <li>Mehmet Yıldız - Stoper</li>
+    <li>Ahmet Can - Forvet</li>
+  </ul>
+</section>
+
+<section id="basvuru">
+  <h2>Oyuncu Başvurusu</h2>
+  <form action="mailto:kazlicesmesk@gmail.com" method="post" enctype="text/plain">
+    <label>Ad Soyad:</label>
+    <input type="text" name="adsoyad" required>
+
+    <label>Yaş:</label>
+    <input type="number" name="yas" required>
+
+    <label>Pozisyon:</label>
+    <input type="text" name="pozisyon" required>
+
+    <label>Kendini tanıt:</label>
+    <textarea name="tanitim" rows="5" placeholder="Nerede oynadın, hangi okul, hangi yetenekler?" required></textarea>
+
+    <input type="submit" value="Başvuru Gönder">
+  </form>
+</section>
+
+<section id="iletisim">
+  <h2>İletişim</h2>
+  <p>📍 Zeytinburnu, Kazlıçeşme Mahallesi<br>
+     📧 kazlicesmesk@gmail.com<br>
+     📞 +90 5XX XXX XX XX
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Kazlıçeşme Spor Kulübü</p>
+</footer>
+
+</body>
+</html>
